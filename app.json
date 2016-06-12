@@ -1,0 +1,23 @@
+{
+  "name": "messenger-bot",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "FACEBOOK_APP_ID": "1092539390791794",
+    "FACEBOOK_SECRET": "5a6aa1bfe3a1aa0ffcd9d24da0e11582"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
